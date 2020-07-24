@@ -3,16 +3,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "ProjectName",
+    name: "UIButtonTargetClosure",
     platforms: [
         .iOS(.v10),
     ],
     products: [
-        .library(name: "ProjectName", targets: ["ProjectName"]),
-    ],
-    dependencies: [
+        .library(name: "UIButtonTargetClosure", targets: ["UIButtonTargetClosure"]),
     ],
     targets: [
-        .target(name: "ProjectName", dependencies: []),
+        .target(name: "UIButtonTargetClosure"),
     ]
 )
